@@ -1,0 +1,11 @@
+language: php
+
+php: 
+  - "5.6" #.32
+  - "7.0" #.26
+  - "7.1" #.12
+
+build: 
+
+ ci:
+   - php --version
