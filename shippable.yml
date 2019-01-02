@@ -1,9 +1,12 @@
 language: php
 
+runtime:
+  nodePool: dynamic__x86_64__Ubuntu_14_04__c4_large
+  
 php: 
-  - "5.6" #.32
-  - "7.0" #.26
-  - "7.1" #.12
+  - "5.6.32"
+  - "7.0.26"
+  - "7.1.12"
 
 build: 
 
